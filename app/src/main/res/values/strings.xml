@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Smart Life Coach For Children</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="selectFood">Neler yediğini seçer misin?</string>
+    <string name="selectedCount">tane seçtin</string>
+
+    <string name="sign_in_adult">Ebeveyn Kayıt</string>
+    <string name="sign_in_child">Çocuk Kayıt</string>
+    <string name="sign_in">Kayıt Ol</string>
+    <string name="save">Kaydet</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="parent_control">Ebeveyn Kontrol Paneli</string>
+
+    <string name="exit_from_app">Uygulamadan çıkış yapmak istediğinize emin misiniz?</string>
+    <string name="exit_from_website">Siteden çıkış yapmak istediğinize emin misiniz?</string>
+    <string name="str_exit">Çıkış</string>
+    <string name="str_cancel">Vazgeç</string>
+    <string name="title_activity_deneme">DenemeActivity</string>
+
+    <string name="long_text">Android 5.0 Lollipop was one of the most significant Android releases ever,
+        in no small part due to the introduction of material design,
+        a new design language that refreshed the entire Android experience
+    </string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hmkcode.mongoz.MainActivity" >
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/navigation_item_1"
+            android:icon="@drawable/child"
+            android:title="Çocuk Bilgisi"/>
+        <item
+            android:id="@+id/navigation_item_2"
+            android:icon="@drawable/meal"
+            android:title="Yemek Ekleme"/>
+
+        <item
+            android:id="@+id/navigation_item_3"
+            android:icon="@drawable/personal"
+            android:title="Kişisel Bilgiler"/>
+
+        <item
+            android:id="@+id/navigation_item_4"
+            android:icon="@drawable/email"
+            android:title="Diyetisten Maili"/>
+        <item
+            android:id="@+id/navigation_item_5"
+            android:icon="@drawable/exit"
+            android:title="Çıkış"/>
+    </group>
+
+</menu>

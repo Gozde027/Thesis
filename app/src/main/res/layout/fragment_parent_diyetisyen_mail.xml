@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/subject">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Konu"
+            android:id="@+id/editText2" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:layout_weight="0.62">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:hint="Mesaj"
+            android:id="@+id/editText3"
+            android:layout_gravity="center_horizontal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:text="Email Gönder"
+        android:id="@+id/sendButton"
+        android:textColor="@color/new_white"
+        android:background="@drawable/custom_button"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

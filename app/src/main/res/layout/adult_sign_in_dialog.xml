@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bilgileri Doldurunuz"
+        android:id="@+id/textView2"
+
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="İsim"
+        style="@style/EditTextStyle"
+        android:ems="10"
+        android:id="@+id/adult_name"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Soyisim"
+        style="@style/EditTextStyle"
+        android:ems="10"
+        android:id="@+id/adult_surname"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adult_username"
+        style="@style/EditTextStyle"
+        android:hint="Kullanıcı Adı"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Şifre"
+        style="@style/EditTextStyle"
+        android:id="@+id/adult_password"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="Diyetisyen Mail Adresi"
+        style="@style/EditTextStyle"
+        android:id="@+id/adult_diyetisyen"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="Diyetisyen Telefon"
+        style="@style/EditTextStyle"
+        android:id="@+id/adult_diyetisyen_phone"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Kaydet"
+        android:id="@+id/adult_save_button"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

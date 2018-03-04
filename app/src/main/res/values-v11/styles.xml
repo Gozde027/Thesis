@@ -1,0 +1,51 @@
+<resources>
+
+    <style name="FullscreenTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:height">50dp</item>
+        <item name="android:width">300dp</item>
+
+    </style>
+
+    <style name="ConfigTheme" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">@color/spinner_text</item>
+    </style>
+
+    <style name="ConfigTheme.NoActionBar2">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- colorPrimary is used, for instance, for the default ActionBar
+       (but not Toolbar) background.
+        We specify the same color for the toolbar background in
+        toolbar.xml.. -->
+        <item name="colorPrimary">@color/new_blue</item>
+
+        <!-- colorPrimaryDark is used for the status bar (with the
+             battery, clock, etc). -->
+        <item name="colorPrimaryDark">@color/new_top_color</item>
+
+        <!-- colorAccent is used as the default value for
+             colorControlActivated which is used to tint widgets. -->
+        <item name="colorAccent">@color/new_top_color</item>
+        <!-- android:textColorPrimary is the  color of the title text
+       in the Toolbar, in the Theme.AppCompat theme:  -->
+        <item name="android:textColorPrimary">@color/new_white</item>
+        <item name="actionMenuTextColor">@color/abc_primary_text_material_light</item>
+        <item name="android:textColorSecondary">@color/abc_secondary_text_material_light</item>
+    </style>
+
+</resources>

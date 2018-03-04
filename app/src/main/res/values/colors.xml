@@ -1,0 +1,48 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="black">#000000</color>
+    <color name="redTest">#FF45</color>
+
+    <color name="pressed_changedButtomMenu">#4D0099cc</color>
+    <color name="mid_button_blue_top">#A4CBEC</color>
+    <color name="blue_light">#8000688B</color>
+    <color name="txt_name_color">#185B69</color>
+
+    <color name="list_item_title">#fff</color>
+    <color name="counter_text_color">#ffffff</color>
+
+    <color name="red_veripark">#C7161C</color>
+    <color name="apptheme_color">#d01818</color>
+    <color name="red2_veripark">#B9151C</color>
+
+    <color name="primary">#00BCD4</color>
+    <color name="blue_middle">#12a8c7</color>
+    <color name="primary_dark">#0097A7</color>
+
+    <color name="new_blue">#37BBF9</color>
+    <color name="new_white">#FFFFFF</color>
+    <color name="new_line">#34A6DA</color>
+    <color name="new_top_color">#0288D1</color>
+    <color name="spinner_line">#DEDEDE</color>
+    <color name="config_save_button">#7D8995</color>
+    <color name="spinner_text">#A2A2A2</color>
+    <color name="gray_light">#E5E5E5</color>
+    <color name="search_view">#262626</color>
+    <color name="listview_background">#1E1E1E</color>
+    <color name="listview_textcolor">#AAAAAA</color>
+
+    <color name="window_background">#CC000000</color>
+    <color name="window_background2">#CCFFFFFF</color>
+
+
+    <color name="my_primary">#ED1C24</color>
+    <color name="my_primary_dark">#CC0000</color>
+    <color name="my_primary_light">#B3E5FC</color>
+    <color name="my_accent">#FF5722</color>
+    <color name="my_primary_text">#ffffff</color>
+    <color name="my_secondary_text">#ffffff</color>
+    <color name="my_icons">#FFFFFF</color>
+    <color name="my_divider">#B6B6B6</color>
+
+</resources>

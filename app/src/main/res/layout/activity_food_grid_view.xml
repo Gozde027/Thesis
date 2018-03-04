@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/new_blue"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+        android:id="@+id/gridView"
+        android:drawSelectorOnTop="true"
+        android:listSelector="@drawable/grid_selector"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
