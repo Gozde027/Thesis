@@ -8,7 +8,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 import com.smartlifecoach.itu.smartlifecoachforchildren.FoodModel.FoodDBEntry;
-import com.smartlifecoach.itu.smartlifecoachforchildren.FoodModel.FoodItem;
 import com.smartlifecoach.itu.smartlifecoachforchildren.SignIn.Child;
 
 import java.util.ArrayList;
